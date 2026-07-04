@@ -72,9 +72,9 @@ $$
 The time evolution is computed using
 
 $$
-(I-\frac{\Delta t}{2i}H)\psi^{n+1}
+\left(I-\frac{\Delta t}{2i}H\right)\psi^{n+1}
 =
-(I+\frac{\Delta t}{2i}H)\psi^{n}
+\left(I+\frac{\Delta t}{2i}H\right)\psi^{n}
 $$
 
 
