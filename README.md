@@ -64,11 +64,7 @@ where
 The Hamiltonian operator is
 
 $$
-H
-=
--\frac12\frac{\partial^2}{\partial x^2}
-+
-V(x)
+H=-\frac{1}{2}\frac{\partial^{2}}{\partial x^{2}}+V(x)
 $$
 
 ## Crank–Nicolson Method
