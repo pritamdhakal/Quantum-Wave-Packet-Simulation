@@ -90,3 +90,23 @@ The time evolution is computed using
   - Transmission probability ($T$)
   - Reflection probability ($R$)
   - Spatial expectation value ($\langle x \rangle$)
+
+## Transmission and Reflection
+
+The transmission probability is computed numerically across the right boundary region ($x_c$):
+
+$$
+T=\int_{x>x_c}|\psi(x,t)|^2\,dx
+$$
+
+The reflection probability is computed across the left boundary region:
+
+$$
+R=\int_{x<-x_c}|\psi(x,t)|^2\,dx
+$$
+
+The expectation value of the particle position is evaluated as:
+
+$$
+\langle x\rangle=\int_{-\infty}^{+\infty}x|\psi(x,t)|^2\,dx
+$$
