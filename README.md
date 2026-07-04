@@ -68,7 +68,7 @@ H
 =
 -\frac12\frac{\partial^2}{\partial x^2}
 +
-V(x).
+V(x)
 $$
 
 ## Crank–Nicolson Method
@@ -76,15 +76,9 @@ $$
 The time evolution is computed using
 
 $$
-\left(
-I-\frac{\Delta t}{2i}H
-\right)
-\psi^{n+1}
+(I-\frac{\Delta t}{2i}H)\psi^{n+1}
 =
-\left(
-I+\frac{\Delta t}{2i}H
-\right)
-\psi^{n}.
+(I+\frac{\Delta t}{2i}H)\psi^{n}
 $$
 
 
