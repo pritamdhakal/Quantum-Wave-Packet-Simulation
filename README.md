@@ -29,13 +29,10 @@ which gives the probability of finding the particle at position $x$.
 The initial wave function is
 
 $$
-\psi(x,0)
-=
+\psi(x,0)=
 \frac{1}{(2\pi\sigma_0^2)^{1/4}}
-\exp\left[
--\frac{(x-x_0)^2}{4\sigma_0^2}
-\right]
-\exp(ik_0x)
+\exp\left(-\frac{(x-x_0)^2}{4\sigma_0^2}\right)
+\exp(i k_0 x)
 $$
 
 where
