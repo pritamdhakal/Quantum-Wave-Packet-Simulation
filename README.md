@@ -32,3 +32,71 @@ $$
 $$
 
 which gives the probability of finding the particle at position $x$.
+
+## Initial Gaussian Wave Packet
+
+The initial wave function is
+
+$$
+\psi(x,0)
+=
+\frac{1}{(2\pi\sigma_0^2)^{1/4}}
+\exp\left[
+-\frac{(x-x_0)^2}{4\sigma_0^2}
+\right]
+\exp(ik_0x)
+$$
+
+where
+
+- $x_0$ is the initial center position.
+- $\sigma_0$ is the initial packet width.
+- $k_0$ is the initial wave number (momentum).
+
+## Double Barrier Potential
+
+The potential is
+
+$$
+V(x)=
+\begin{cases}
+V_0, & x\in\text{Barrier Regions},\\
+0, & \text{otherwise}.
+\end{cases}
+$$
+
+where
+
+- $V_0$ is the barrier height.
+- Each barrier has width $w$.
+- The barriers are separated by a gap of width $d$.
+
+## Hamiltonian
+
+The Hamiltonian operator is
+
+$$
+H
+=
+-\frac12\frac{\partial^2}{\partial x^2}
++
+V(x).
+$$
+
+## Crank–Nicolson Method
+
+The time evolution is computed using
+
+$$
+\left(
+I-\frac{\Delta t}{2i}H
+\right)
+\psi^{n+1}
+=
+\left(
+I+\frac{\Delta t}{2i}H
+\right)
+\psi^{n}.
+$$
+
+
