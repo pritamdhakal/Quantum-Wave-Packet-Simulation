@@ -110,3 +110,18 @@ The expectation value of the particle position is evaluated as:
 $$
 \langle x\rangle=\int_{-\infty}^{+\infty}x|\psi(x,t)|^2\,dx
 $$
+
+## Author
+
+**Pritam Dhakal**  
+*M.Sc. in Physics*
+
+**Research Interests**
+- Computational Physics
+- Quantum Computing
+- High Energy Physics
+- Machine Learning
+
+---
+
+If you find this project useful, please consider giving it a ⭐ on GitHub.
