@@ -77,4 +77,16 @@ The time evolution is computed using
 \left(I+\frac{\Delta t}{2i}H\right)\psi^{n}
 ```
 
+## Features
 
+- One-dimensional Time-Dependent Schrödinger Equation (TDSE) solver
+- Crank–Nicolson implicit time integration
+- Sparse Hamiltonian matrix operators
+- Double rectangular potential barrier framework
+- Gaussian wave packet initialization
+- Complex absorbing boundary conditions (ABC) to damp edge reflections
+- Real-time Matplotlib animation
+- Live runtime tracking of:
+  - Transmission probability ($T$)
+  - Reflection probability ($R$)
+  - Spatial expectation value ($\langle x \rangle$)
