@@ -13,8 +13,7 @@ i\frac{\partial \psi(x,t)}{\partial t}
 =
 \left[
 -\frac{1}{2}\frac{\partial^2}{\partial x^2}
-+
-V(x)
++V(x)
 \right]
 \psi(x,t)
 $$
