@@ -9,13 +9,12 @@ The simulation demonstrates fundamental quantum phenomena including **wave packe
 The dynamics of the quantum particle are governed by the one-dimensional **Time-Dependent Schrödinger Equation (TDSE)** (atomic units: $\hbar = m = 1$):
 
 $$
-i\frac{\partial \psi(x,t)}{\partial t}
+i \frac{\partial \psi}{\partial t}
 =
-\left[
+\left(
 -\frac{1}{2}\frac{\partial^2}{\partial x^2}
 +V(x)
-\right]
-\psi(x,t)
+\right)\psi
 $$
 
 where
